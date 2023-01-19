@@ -125,7 +125,6 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
-
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
@@ -138,3 +137,58 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+
+.lined-header
+  background: linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%)
+
+.lined-header span
+  background: #fff
+  padding: 0 20px
+  position: relative
+  z-index: 5
+
+.fancy
+  line-height: 0.5
+  text-align: center
+
+.fancy span
+  display: inline-block
+  position: relative
+
+.fancy span:before,
+.fancy span:after
+  content: ""
+  position: absolute
+  height: 5px
+  border-bottom: 1px solid white
+  border-top: 1px solid white
+  top: 0
+  width: 600px
+
+.fancy span:before
+  right: 100%
+  margin-right: 15px
+
+.fancy span:after
+  left: 100%
+  margin-left: 15px
+
+#features .is-overlay
+  left: -12px
+  top: 12px
+
+#services .card-content p
+  margin: 1em 0 0 0
+
+#features ul
+  list-style: none
+  margin-left: 0
+
+#features li
+  text-align: center
+
+#features .card-content li + li
+  margin-top: 10px
+  border-top: 1px solid #dedede
+  padding-top: 10px
+

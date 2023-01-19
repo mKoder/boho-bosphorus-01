@@ -1,21 +1,15 @@
 ---
+heading: TEST HEADING 1
+subheading: "An Exclusive Private Event Venue on Bosphorus Istanbul "
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: BOHO BOSPHORUS
+image: /img/img_0158.jpg
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: "An Exclusive Private Event Venue on Bosphorus Istanbul  "
+  description: "Create a magical experience in a unique ambiance on Bosphorus for
+    your guests in Istanbul. "
+description: "BoHo is one of only 360 special houses on Bosphorus called “Yali”.
+  Our experienced team is ready to help you create your dream event. "
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,12 +39,74 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: "BoHo Bosphorus is suitable for: "
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+  spaces:
+    - title: BoHo Terrace
+      text: >-
+        * 100m2 open air space on Bosphorus. Suitable for up to 100 people
+        standing, 40 people seated.
+
+        * Outdoor screen and projector for videos, visuals and presentations
+
+        * Optional outdoor bar
+
+        * BBQ
+
+        * Sound system
+      image: /img/img_0037.jpg
+      body: >-
+        
+
+        * 100m2 open air space on Bosphorus. Suitable for up to 100 people standing, 40 people seated.
+
+        * Outdoor screen and projector for videos, visuals and presentations
+
+        * Optional outdoor bar
+
+        * BBQ
+
+        * Sound system
+    - title: BoHo Main Room
+      text: >-
+        * 50m2 indoor space suitable for up to 50 people standing, 24 people
+        seated
+
+        * 5+1 B&W Home theatre system with Sony 4K projector and screen
+
+        * DJ setup and sound system 
+
+        * Smart lighting 
+
+        * French style Bar
+      image: /img/img_0156.jpg
+      body: B﻿ody
+    - title: Kitchen
+      text: "* Fully equipped kitchen suitable for big events and catering "
+      image: /img/img_1443.jpg
+      body: B﻿ody
+    - title: Guest Room
+      text: "* A room with a private bathroom for changing and storage"
+      image: /img/img_0054.jpg
+      body: B﻿ody
+  spaces-title: Spaces
+  services:
+    - title: Private Chef for customized gastronomic experiences
+      image: /img/img_1793.jpg
+    - title: Car Service or Boat arrangement
+      image: /img/2z1a9833.jpg
+    - title: Special concept or decoration
+      image: /img/img_0246.jpg
+    - title: Staff (waiter, bartender, hostess, valet)
+      image: /img/img_0258.jpg
+    - title: Performance artists (DJs, live musicians, fire dance, etc.)
+      image: /img/img_0048.jpg
+    - title: Equipment rental
+      image: /img/img_1712.jpg
 main:
   heading: Great coffee with no compromises
   description: >

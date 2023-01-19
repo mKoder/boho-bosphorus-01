@@ -1,24 +1,25 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import showdown from 'showdown'
+
+const converter = new showdown.Converter()
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div id="features" className="columns is-multiline">
     {gridItems.map((item) => (
       <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: "240px",
-                display: "inline-block",
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
+        <div className="card">
+          <div className="card-content">
+            <div className="card-image">
+                <PreviewCompatibleImage imageInfo={item} />
             </div>
+            <div className="card-content is-overlay">
+              <span className="tag is-black is-large">{item.title}</span>
+            </div>
+            <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(item.text) }}/>
           </div>
-          <p>{item.text}</p>
-        </section>
+        </div>
       </div>
     ))}
   </div>

@@ -9,6 +9,8 @@ export default function FullWidthImage(props) {
     title,
     subheading,
     imgPosition = "top left",
+    h1Class = "has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen",
+    h1Transform = "rotate(-90deg) translate(0, -300%)",
   } = props;
 
   return (
@@ -57,23 +59,23 @@ export default function FullWidthImage(props) {
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
-              position: "relative",
+              position: "absolute",
               // This centers the other elements inside the hero component
-              placeItems: "center",
+              placeItems: "start center",
               display: "grid",
             }}
           >
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                className={h1Class}
                 style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
+                  backgroundColor: "rgb(28, 27, 26, 0.9)",
+                  color: "#dedede",
                   lineHeight: "1",
-                  padding: "0.25em",
+                  padding: "0.25em 1.25em 0.25em 1.25em",
+                  transform: `${h1Transform}`,
+                  "z-index": "31",
                 }}
               >
                 {title}

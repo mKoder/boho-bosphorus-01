@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+import instaLogo from "../img/social/instagram.svg";
+import logo from "../img/logo.png";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -14,9 +14,6 @@ const Navbar = () => {
     >
       <div className="container">
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
-          </Link>
           {/* Hamburger menu */}
           <button
             className={`navbar-burger burger ${isActive && "is-active"}`}
@@ -28,48 +25,36 @@ const Navbar = () => {
             <span />
           </button>
         </div>
-        <ul id="navMenu" className={` navbar-start has-text-centered navbar-menu ${isActive && "is-active"}`}>
-            {/* TODO: inline override of padding is a result of refactoring
-                to a ul for accessibilty purposes, would like to see a css
-                re-write that makes this unneccesary.
-             */}
-            <li className="navbar-item" style={{padding: "0px"}}>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/products">
-              Products
+        <ul id="navMenu" className={` navbar-end has-text-centered navbar-menu ${isActive && "is-active"}`}>
+          {/* TODO: inline override of padding is a result of refactoring
+              to a ul for accessibilty purposes, would like to see a css
+              re-write that makes this unneccesary.
+           */}
+          <li className="navbar-item" style={{padding: "0px"}}>
+            <Link className="navbar-item" to="/gallery">
+              Gallery
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/blog">
-              Blog
-            </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
+          </li>
+          <li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/contact">
               Contact
             </Link>
-            </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
-            </Link>
-            </li>
-          <li className="navbar-end has-text-centered">
+          </li>
+          <li className="navbar-item has-text-centered">
             <a
               className="navbar-item"
-              href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+              href="https://www.instagram.com/boho_bosphorus"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="icon">
-                <img src={github} alt="Github" />
+                <img src={instaLogo} alt="Instagram" />
               </span>
             </a>
           </li>
+          <Link to="/" className="navbar-item" title="Logo">
+            <img src={logo} alt="Boho Bosphorus" style={{ width: "88px" }} />
+          </Link>
         </ul>
       </div>
     </nav>
