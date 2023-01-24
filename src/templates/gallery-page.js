@@ -21,9 +21,9 @@ export const GalleryPageTemplate = ({
         h1Class="has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen"
         h1Transform="rotate(-90deg) translate(-20px, -450%)"
       />
-      <section className="section section--gradient">
+      <section className="section section--gradient pt-1">
         <div className="container">
-          <div className="section">
+          <div className="section pt-1">
             <div className="columns">
               <div className="column is-12">
                 <Gallery images={images} />
