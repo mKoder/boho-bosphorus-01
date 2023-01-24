@@ -96,7 +96,7 @@ intro:
   spaces-title: Spaces
   services:
     - title: Private Chef for customized gastronomic experiences
-      image: /img/img_1793.jpg
+      image: /img/f3b7b7e3-bd43-4791-a28c-15939cd28e91.jpeg
     - title: Car Service or Boat arrangement
       image: /img/2z1a9833.jpg
     - title: Special concept or decoration

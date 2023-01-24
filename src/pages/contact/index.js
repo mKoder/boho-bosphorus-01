@@ -1,6 +1,7 @@
 import * as React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import FullWidthImage from "../../components/FullWidthImage";
 
 function encode(data) {
   return Object.keys(data)
@@ -36,11 +37,12 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout pageTitle="CONTACT BOHO BOSPHORUS">
+        <div>
         <section className="section">
+          <div className="container">
           <div className="columns">
-            <div className="container">
-            <div className="column is-12">
-              <h1>Contact Us</h1>
+
+            <div className="column is-8">
               <form
                 name="contact"
                 method="post"
@@ -111,6 +113,7 @@ export default class Index extends React.Component {
           </div>
           </div>
         </section>
+        </div>
       </Layout>
     );
   }
