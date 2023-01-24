@@ -35,11 +35,12 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <Layout pageTile="Contact Us">
+      <Layout pageTitle="CONTACT BOHO BOSPHORUS">
         <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1>Contact</h1>
+          <div className="columns">
+            <div className="container">
+            <div className="column is-12">
+              <h1>Contact Us</h1>
               <form
                 name="contact"
                 method="post"
@@ -107,6 +108,7 @@ export default class Index extends React.Component {
                 </div>
               </form>
             </div>
+          </div>
           </div>
         </section>
       </Layout>

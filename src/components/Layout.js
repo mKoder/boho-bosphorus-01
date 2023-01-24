@@ -58,9 +58,9 @@ const TemplateWrapper = ({ children, pageTitle }) => {
           lineHeight: "1",
           padding: "0.25em 1.25em 0.25em 1.25em",
           // transform: `${h1Transform}`,
-          "z-index": "31",
+          zIndex: "31",
           transform: "rotate(-90deg) translate(-100%, 0)",
-          "transform-origin": "left top",
+          transformOrigin: "left top",
           position: "absolute"
         }}
       >
