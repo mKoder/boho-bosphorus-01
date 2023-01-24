@@ -61,7 +61,8 @@ const TemplateWrapper = ({ children, pageTitle }) => {
           zIndex: "31",
           transform: "rotate(-90deg) translate(-100%, 0)",
           transformOrigin: "left top",
-          position: "absolute"
+          position: "absolute",
+          whiteSpace: "nowrap"
         }}
       >
         {pageTitle}
