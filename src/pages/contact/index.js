@@ -42,7 +42,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="section">
           <div className="columns">
-
+            <div className="column is-12 m-auto">
             <div className="column is-8 m-auto">
 
               <form
@@ -111,7 +111,7 @@ export default class Index extends React.Component {
                   </button>
                 </div>
               </form>
-
+            </div>
             </div>
           </div>
           </div>
