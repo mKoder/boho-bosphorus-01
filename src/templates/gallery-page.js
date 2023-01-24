@@ -18,7 +18,6 @@ export const GalleryPageTemplate = ({
     <div>
       <FullWidthImage
         img={heroImageProcessed}
-        title={title}
         h1Class="has-text-weight-bold is-size-4-mobile is-size-3-tablet is-size-2-widescreen"
         h1Transform="rotate(-90deg) translate(-20px, -450%)"
       />
@@ -49,7 +48,7 @@ const GalleryPage = ({ data }) => {
   } } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout pageTitle={title}>
       <GalleryPageTemplate
         images={images}
         headerimage={headerimage}

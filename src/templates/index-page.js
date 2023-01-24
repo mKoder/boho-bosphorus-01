@@ -12,18 +12,17 @@ import FullWidthImage from "../components/FullWidthImage";
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
-  subheading,
   mainpitch,
   description,
   intro,
 }) => {
   const heroImage = getImage(image) || image;
 
+  console.log('GOT TITLE', title)
+
   return (
     <div>
-
-      <FullWidthImage img={heroImage} title={title} />
+      <FullWidthImage img={heroImage} />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -75,7 +74,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout pageTitle={frontmatter.title}>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}

@@ -6,7 +6,9 @@ import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
-const TemplateWrapper = ({ children }) => {
+const h1Class = "has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen";
+
+const TemplateWrapper = ({ children, pageTitle }) => {
   const { title, description } = useSiteMetadata();
   return (
     <div>
@@ -48,6 +50,22 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
+      <h1
+        className={h1Class}
+        style={{
+          backgroundColor: "rgb(28, 27, 26, 0.9)",
+          color: "#dedede",
+          lineHeight: "1",
+          padding: "0.25em 1.25em 0.25em 1.25em",
+          // transform: `${h1Transform}`,
+          "z-index": "31",
+          transform: "rotate(-90deg) translate(-100%, 0)",
+          "transform-origin": "left top",
+          position: "absolute"
+        }}
+      >
+        {pageTitle}
+      </h1>
       <Navbar />
       <div>{children}</div>
     </div>
