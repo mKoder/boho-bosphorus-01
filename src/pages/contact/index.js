@@ -40,9 +40,11 @@ export default class Index extends React.Component {
         <div>
         <section className="section">
           <div className="container">
+            <div className="section">
           <div className="columns">
 
-            <div className="column is-8">
+            <div className="column is-8 m-auto">
+
               <form
                 name="contact"
                 method="post"
@@ -109,7 +111,9 @@ export default class Index extends React.Component {
                   </button>
                 </div>
               </form>
+
             </div>
+          </div>
           </div>
           </div>
         </section>
