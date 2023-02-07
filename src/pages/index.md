@@ -3,7 +3,7 @@ heading: TEST HEADING 1
 subheading: "An Exclusive Private Event Venue on Bosphorus Istanbul "
 templateKey: index-page
 title: BOHO BOSPHORUS
-image: /img/img_0158.jpg
+image: /img/85024deb-be2b-4d54-a4f0-14cc267faa56.jpeg
 mainpitch:
   title: "An Exclusive Private Event Venue on Bosphorus Istanbul  "
   description: "Create a magical experience in a unique ambiance on Bosphorus for
