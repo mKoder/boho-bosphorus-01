@@ -42,10 +42,16 @@ export const IndexPageTemplate = ({
                   <div className="tile">
 
                   </div>
-                  <Features gridItems={intro.spaces} />
+                  <Features gridItems={intro.spaces}/>
                   <h2 className="has-text-centered lined-header"><span>Services on demand</span></h2>
-                  <Services gridItems={intro.services} />
-                </div>
+                  <Services gridItems={intro.services}/>
+                  <div className="mt-3">
+                    <h2 className="has-text-centered">
+                      To inquire a quote for your event please fill out the&nbsp;
+                      <a href="https://bonjukbay.plumsail.io/6419b524-873b-4f70-9efc-601e7111a644">Request form</a>
+                    </h2>
+                  </div>
+              </div>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ const masonryOptions = {
 const imagesLoadedOptions = {}
 
 const FeatureGrid = ({ gridItems }) => (
-  <div id="services">
+  <div id="services" className="block">
     <Masonry
       options={masonryOptions} // default {}
       disableImagesLoaded={false} // default false
