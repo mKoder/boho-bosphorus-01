@@ -6,8 +6,8 @@ title: BOHO BOSPHORUS
 image: /img/85024deb-be2b-4d54-a4f0-14cc267faa56.jpeg
 mainpitch:
   title: "An Exclusive Private Event Venue on Bosphorus Istanbul  "
-  description: "Create a magical experience in a unique ambiance on Bosphorus for
-    your guests in Istanbul. "
+  description: Create a magical experience in a unique ambiance on Bosphorus for
+    your guests in Istanbul....
 description: "BoHo is one of only 360 special houses on Bosphorus called “Yali”.
   Our experienced team is ready to help you create your dream event. "
 intro:
